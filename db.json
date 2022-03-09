@@ -1403,6 +1403,45 @@
       "latitude": "-29.9712",
       "longitude": "13.6364",
       "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/cdharrison/128.jpg"
+    },
+    {
+      "name": "Dudley Kovacek",
+      "dob": "1943-1-10",
+      "email": "Dudley_Kovacek@gmail.com",
+      "username": "Dudley_Kovacek",
+      "password": "Vf922e8HvCDVX6j",
+      "phone": "1-331-362-0460 x9832",
+      "streetaddress": "57403 Ward Mount",
+      "citystatezip": "West Chynaport, ME 27442",
+      "latitude": "-69.4376",
+      "longitude": "85.9631",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/xripunov/128.jpg"
+    },
+    {
+      "name": "Esperanza O'Hara",
+      "dob": "1975-7-21",
+      "email": "Esperanza.OHara@yahoo.com",
+      "username": "Esperanza44",
+      "password": "9S3ue1UOowkQX5C",
+      "phone": "(747) 743-0298",
+      "streetaddress": "58023 King Locks",
+      "citystatezip": "Braunhaven, AL 40626-2690",
+      "latitude": "40.5831",
+      "longitude": "40.0049",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/thibaut_re/128.jpg"
+    },
+    {
+      "name": "Coy Strosin",
+      "dob": "1952-2-16",
+      "email": "Coy.Strosin59@hotmail.com",
+      "username": "Coy90",
+      "password": "5XbskzAK8iy5dCt",
+      "phone": "1-488-737-2927",
+      "streetaddress": "5994 Freida Cliff",
+      "citystatezip": "Brockberg, ME 09893-6748",
+      "latitude": "45.4764",
+      "longitude": "114.4338",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/judzhin_miles/128.jpg"
     }
   ]
 }

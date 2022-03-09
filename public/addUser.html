@@ -89,7 +89,18 @@
         };
 
         // post user
-        const url = "http://localhost:3000/add";
+        /*heroku help:
+        https://help.heroku.com/JS13Y78I/i-need-to-add-heroku-dynos-to-our-allowlist-what-are-ip-address-ranges-in-use-at-heroku
+       https://help.heroku.com/4WADH6LX/can-you-provide-me-with-the-ip-address-for-my-application
+        */
+        /*network services:
+        https://elements.heroku.com/addons/categories/network
+        */
+        /* https://dnschecker.org/#A/deployapp-userdata.herokuapp.com :
+        54.208.186.182 54.224.34.30 34.201.81.34 54.243.129.215*/
+        /*https://myip.ms/
+        https://myip.ms/info/whois/34.201.81.34/k/2303734663/website/deployapp-userdata.herokuapp.com*/
+        let url = "http://34.201.81.34:3000/add";
 
         superagent
           .post(url)
@@ -101,10 +112,10 @@
               console.log(res);
               if (res.statusCode === 200) {
                 document.getElementById("status").innerHTML = `
-                        <b>Response: Status Code 200.</b> The HTTP 200 OK success status response code indicates that the HTTP request has succeeded.<br>
-                        User: ${name}<br>
-                        ${new Date()}
-                    `;
+                              <b>Response: Status Code 200.</b> The HTTP 200 OK success status response code indicates that the HTTP request has succeeded.<br>
+                              User: ${name}<br>
+                              ${new Date()}
+                          `;
               }
             }
           });
